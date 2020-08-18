@@ -1,4 +1,4 @@
 #Personal Blog(WIP)
 
-- [] Publish to github pages
-- [] Migrate to typescript
+-[] Publish to github pages
+-[] Migrate to typescript
