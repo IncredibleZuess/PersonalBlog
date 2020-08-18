@@ -1,20 +1,17 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'IncredibleZuess'
-export const siteTitle = 'Portfolio(WIP)'
+const name = "IncredibleZuess";
+export const siteTitle = "Portfolio(WIP)";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Personal Website using nextjs" />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -25,6 +22,12 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+          crossOrigin="anonymous"
+        />
         {home ? (
           <>
             <img
@@ -53,6 +56,16 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <div className={utilStyles.lightText}>
+        <div className={styles.subheader}>
+          <h4>
+            <i className="fab fa-discord"></i> IncredibleZuess#5667
+          </h4>
+          <h4>
+            <i className="fab fa-github"></i> Github
+          </h4>
+        </div>
+      </div>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
@@ -62,5 +75,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
