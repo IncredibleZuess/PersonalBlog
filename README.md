@@ -1,4 +1,18 @@
 #Personal Blog(WIP)
 
-- [] Publish to github pages
-- [] Migrate to typescript
+Hello and welcome to my first portfolio website🖐
+
+The project was built using Next.js and is hosted on [Vercel](https://zuess.vercel.app/)
+
+If you would like to run the code on your local machine clone the master branch and run
+
+`npm run dev`
+
+To build the code run
+
+`npm build`
+
+Things to do:
+- [ ] Add social links
+- [ ] Brainstorm...
+- [ ] Migrate to typescript
