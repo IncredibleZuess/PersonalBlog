@@ -58,12 +58,12 @@ export default function Layout({ children, home }) {
       </header>
       <div className={utilStyles.lightText}>
         <div className={styles.subheader}>
-        <Link href="location.assign(https://discord.bio/p/IncredibleZuess)" as='https://discord.bio/p/IncredibleZuess'>
+        <Link href="location.assign(https://discord.bio/p/IncredibleZuess)">
           <h4>
             <a><i className="fab fa-discord"></i> IncredibleZuess#5667</a>
           </h4>
           </Link>
-          <Link href="location.assign(https://github.com/IncredibleZuess)" as="https://github.com/IncredibleZuess">
+          <Link href="location.assign(https://github.com/IncredibleZuess)">
           <h4>
            <a><i className="fab fa-github"></i> Github</a>
           </h4>
