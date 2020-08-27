@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.png"
+              src="https://cdn.discordapp.com/avatars/301462063698411520/43df82b11276f45bd1acc275ace49e91?size=2048"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.png"
+                  src="https://cdn.discordapp.com/avatars/301462063698411520/43df82b11276f45bd1acc275ace49e91?size=2048"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
@@ -58,12 +58,16 @@ export default function Layout({ children, home }) {
       </header>
       <div className={utilStyles.lightText}>
         <div className={styles.subheader}>
+        <Link href="location.assign(https://discord.bio/p/IncredibleZuess)" as='https://discord.bio/p/IncredibleZuess'>
           <h4>
-            <i className="fab fa-discord"></i> IncredibleZuess#5667
+            <a><i className="fab fa-discord"></i> IncredibleZuess#5667</a>
           </h4>
+          </Link>
+          <Link href="location.assign(https://github.com/IncredibleZuess)" as="https://github.com/IncredibleZuess">
           <h4>
-            <i className="fab fa-github"></i> Github
+           <a><i className="fab fa-github"></i> Github</a>
           </h4>
+          </Link>
         </div>
       </div>
       <main>{children}</main>
