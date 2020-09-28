@@ -14,4 +14,7 @@ deploy:
   github_token: $token # GitHub access token to use when pushing to the gh-pages branch
   local_dir: out # Directory to push to the gh-pages branch
   on:
-    branch: develop # Only deploy when the build is on master branch
+    repo:  IncredibleZuess/PersonalBlog
+    branches:
+      only:
+        - master # Only deploy when the build is on master branch
