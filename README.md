@@ -1,4 +1,4 @@
-#Personal Blog(WIP)
+#Personal Blog(WIP)-Dev Branch
 
 Hello and welcome to my first portfolio website🖐
 
@@ -13,6 +13,6 @@ To build the code run
 `npm build`
 
 Things to do:
-- [ ] Add social links
+- [x] Add social links
+- [x] Migrate to typescript
 - [ ] Brainstorm...
-- [ ] Migrate to typescript
