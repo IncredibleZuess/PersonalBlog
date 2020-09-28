@@ -37,7 +37,7 @@ export default function Layout({
         {home ? (
           <>
             <img
-              src="https://cdn.discordapp.com/avatars/301462063698411520/43df82b11276f45bd1acc275ace49e91?size=2048"
+              src="https://cdn.discordapp.com/avatars/301462063698411520/f56319f01a9ce0f514ec81550c94465b.webp?size=128"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -48,7 +48,7 @@ export default function Layout({
             <Link href="/">
               <a>
                 <img
-                  src="https://cdn.discordapp.com/avatars/301462063698411520/43df82b11276f45bd1acc275ace49e91?size=2048"
+                  src="https://cdn.discordapp.com/avatars/301462063698411520/f56319f01a9ce0f514ec81550c94465b.webp?size=128"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
