@@ -1,4 +1,4 @@
-#Personal Blog(WIP)-Dev Branch
+#Personal Blog(WIP)
 
 Hello and welcome to my first portfolio website🖐
 
