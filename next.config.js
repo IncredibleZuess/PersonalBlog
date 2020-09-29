@@ -1,4 +1,4 @@
 module.exports = {
-    basePath: '/PersonalBlog',
+    basePath: '/',
     assetPrefix: '/PersonalBlog/',
 }
