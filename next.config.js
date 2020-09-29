@@ -1,4 +1,7 @@
 module.exports = {
-    BACKEND_URL: '/PersonalBlog',
+    env: {
+        BACKEND_URL: '/PersonalBlog',
+    },
+   
     assetPrefix: '/PersonalBlog/',
 }
