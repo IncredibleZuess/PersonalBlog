@@ -45,7 +45,7 @@ export default function Layout({
           </>
         ) : (
           <>
-            <Link href="/">
+            <Link href={`${process.env.BACKEND_URL}`}>
               <a>
                 <img
                   src="https://cdn.discordapp.com/avatars/301462063698411520/f56319f01a9ce0f514ec81550c94465b.webp?size=128"
